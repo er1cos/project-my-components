@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #FF7833;
+    --secondeary-color: #31333b;
+    --main-background-color: #444856;    
+}
+
+body {
+    display: flex;
+    margin: 0;
+    color: #e7e7e7;
+    background-color: #ccc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-header {
+    width: 260px;
+    background-color: var(--secondeary-color);
+}
+
+.main-container {
+    background-color: var(--main-background-color);
+}
+
+a {
+    color: inherit;
+}

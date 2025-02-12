@@ -17,6 +17,11 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.main-header, .main-container {
+    font-size: 1.6rem;
+}
+
+
 .main-header {
     flex: 0 0 26rem;
     background-color: var(--secondeary-color);
@@ -30,3 +35,8 @@ body {
 a {
     color: inherit;
 }
+
+.perfil-img {
+    max-width: 10rem;
+}
+

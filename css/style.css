@@ -1,11 +1,31 @@
 :root {
     --primary-color: #FF7833;
     --secondeary-color: #31333b;
-    --main-background-color: #444856;    
+    --secondeary-color-light: #444856;    
 }
 
 html {
     font-size: 62.5%;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #7b7b7b;
+    margin-top: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+h2,h3,h4,h5,h6 {
+    color: var(--primary-color);
+}
+
+article {
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 body {
@@ -14,6 +34,7 @@ body {
     color: #e7e7e7;
     background-color: #ccc;
     min-height: 100vh;
+    line-height: 1.7;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -28,8 +49,9 @@ body {
 }
 
 .main-container {
-    background-color: var(--main-background-color);
+    background-color: var(--secondeary-color-light);
     flex: 1 0 0;
+    padding: 6.5rem 6rem 7.5rem;
 }
 
 a {
@@ -40,3 +62,34 @@ a {
     max-width: 10rem;
 }
 
+/* Menu de navegação <ul>*/
+
+.main-nav {
+    text-align: right;
+    padding: 6.5rem 2.4rem 2.4rem;
+}
+
+
+.main-nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav ul a {
+    display: block;
+    text-decoration: none;
+    padding: 1.2rem 0;
+    text-decoration: none;
+    background-color: transparent;
+    transition: padding-right 0.2s, background-color 0.4s;
+}
+
+.main-nav ul a:hover {
+    background-color: var(--secondeary-color-light);
+    padding-right: 1rem;
+}
+
+.main-nav li {
+    border-bottom: 1px solid #7b7b7b;
+    padding: .4rem 0;
+}

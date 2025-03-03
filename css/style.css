@@ -28,6 +28,11 @@ article {
     padding-bottom: 1px;
 }
 
+
+.underline {
+    text-decoration: underline wavy red;
+}
+
 body {
     display: flex;
     margin: 0;
